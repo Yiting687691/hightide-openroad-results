@@ -1,0 +1,25 @@
+{
+  "design": "cnn",
+  "arm": "baseline",
+  "counts": {
+    "macro": 65,
+    "stdcell": 170408,
+    "net": 206998,
+    "io": 365
+  },
+  "small_loop_hpwl_um": 12897036.322297882,
+  "openroad": {
+    "drt_wirelength_um": 14761406.165,
+    "grt_wirelength_um": 15980405.7,
+    "drt_multiterminal_nets": 191707,
+    "drt_nets_without_wire": 0,
+    "drt_disconnected_nets": 0,
+    "grt_overflow": null,
+    "dp_hpwl_um": 13439032.9185,
+    "final_hpwl_um": 13923024.437,
+    "final_wns_ns": -28.343179703,
+    "final_tns_ns": -916.073547363,
+    "drt_violations": 0,
+    "drc_clean": true
+  }
+}

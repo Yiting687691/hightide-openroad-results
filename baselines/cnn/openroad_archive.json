@@ -1,0 +1,644 @@
+{
+  "design": "cnn",
+  "arm": "baseline",
+  "kind": "openroad",
+  "repo": "Yiting687691/open-source-openroad-results",
+  "release_tag": "cnn-quadratic-v21-20261029",
+  "baseline_recovery_discrepancy_pending": true,
+  "physical_protocol": "local fixed-macro paired backend; not a complete upstream ORFS reproduction",
+  "key": "cnn__20261029_baseline_openroad",
+  "files": [
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/README.md",
+      "size": 2294,
+      "sha256": "37b0fc517f8244de6842b362880b9d3ffbe0008fa3e79f0ad9700be2f1e591a8"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/execution.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/failure.json",
+      "size": 158,
+      "sha256": "c34134857d6bfb4798baada2daee586f4801a13f94850fd41313b0c054e7a8c2"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/pause_requested.json",
+      "size": 210,
+      "sha256": "c89c1bda125fbefb82f1ea6cb4c2ff71cc76d25f64d065f6329df0ae5684d305"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/paused_original.json",
+      "size": 245,
+      "sha256": "589e9d3e4427a0533173964742ebd9ce94026764df7e943fe29c8e9ae91e8e04"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/prepared.json",
+      "size": 570,
+      "sha256": "e6fff1e4a9933937190b0e6f617fd4537778e7e2c04f721702ec694926597cdf"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/status.json",
+      "size": 233,
+      "sha256": "3aebd8a56dc82cccaaec2644bb28a6b07c679facd744acf56e7ae84d1a8ffc66"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/cnn_baseline_readback.py",
+      "size": 17932,
+      "sha256": "03dbee530087cbd9af47eb2a0ee45b04bebfed3d28843644610483f94816d7a6"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/cnn_baseline_readback.tcl",
+      "size": 2817,
+      "sha256": "47d36c52d9d8a9fdd08ba9db148eaa08ef960c87d0ab6ea403dea256b13a4a05"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/container.id",
+      "size": 64,
+      "sha256": "3ed4c5d4f6d1269e1f051958fc417c66e41bbab2e03ea1d35da279eadcad23fe"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/container_exit_state.json",
+      "size": 6729,
+      "sha256": "0872a6146befb362a0619b3879ed529f8a0053031155b5d03db6e44d9a592c18"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/exit.json",
+      "size": 53,
+      "sha256": "f41ff3ed3a815891520d2da8e539799cbe38a605b2d93d55fe0ab0fff1f3f0cb"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/invocation.json",
+      "size": 1697,
+      "sha256": "d0ff79fbf5909f795106daf7688fbd63a5e0141939e2e1faacad2d7f0cc822fc"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/readback.log",
+      "size": 471272,
+      "sha256": "5dba88c3701462fd71946430f2cae08602c5d0aedb7374d558310d389b6e7e58"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/readback.stdout.log",
+      "size": 471272,
+      "sha256": "5dba88c3701462fd71946430f2cae08602c5d0aedb7374d558310d389b6e7e58"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/readback_completed.txt",
+      "size": 70,
+      "sha256": "e235c4d7e754d26bb77d910dfdc8a350ffab086983e42cd2b68d1bbb11fd6b89"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reference.log",
+      "size": 1693,
+      "sha256": "045576281d8b9886f64887d02b35a429eb5cf1209e50d07a70d64fbf09cde8ba"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reference.stdout.log",
+      "size": 1693,
+      "sha256": "045576281d8b9886f64887d02b35a429eb5cf1209e50d07a70d64fbf09cde8ba"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reference.tcl",
+      "size": 30792,
+      "sha256": "2cf0e8a75de66c665bcb6c5fafc25f670f9c4e75f76d2bcf3a117470b8a63c01"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reports/detailed_route_wirelength.txt",
+      "size": 5127174,
+      "sha256": "dacf7cdf4a074d14017842fd870a355726ea9d095ac128ae4dd9c77ecc164c27"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reports/final.hold_wns.rpt",
+      "size": 25,
+      "sha256": "c4f435c0302dd1dca8d2772fecc888ab5452414cdd30236afb62d49a1f803c31"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reports/final.hpwl.tsv",
+      "size": 5771926,
+      "sha256": "636a100dbf51611576adc7210ada584b9b322774b5c37132ca6c292db0b2827b"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reports/final.paths.rpt",
+      "size": 27925,
+      "sha256": "8f3550414e853b8ff19a7768bd3bc8e00ccac4cd6fa8c49740fc3bd8e4958fd1"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reports/final.tns.rpt",
+      "size": 19,
+      "sha256": "9a4918943b38bb5a166495f6f681801c24a6f1ffc2fdb43813b018eb1a4db1e7"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reports/final.wns.rpt",
+      "size": 26,
+      "sha256": "490b3328b9ae090baf64a84a3c9a5992c93b8d5b9bc6acd3be7472e46c44a8d9"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reports/macro_invariance.tsv",
+      "size": 82,
+      "sha256": "310df82dcb41880e79e9e445c0960176f7c6bcce650b70e49b5aafce7776d915"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reports/measures.tsv",
+      "size": 232,
+      "sha256": "700a66c4e7dd63fa439c726442733a29eebcd0b8d1c05180e262b1a91519bf76"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reports/recovery_placement_check.ok",
+      "size": 39,
+      "sha256": "babefaaacd01bc0842172a2d3224ab4ddcce6044d2d9613c45f149e353a3c0c4"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/reports/route_coverage.tsv",
+      "size": 5256925,
+      "sha256": "53a746da9dc7f4a73ba598352e2b8f6340fbf18c14750ff2efecc79577c232f8"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/verification/run.sh",
+      "size": 310,
+      "sha256": "2071b80d51d43bdfc90397bcf08e9f33c17563ca9c455061ba339421e769c8fe"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/windows_launch.json",
+      "size": 294,
+      "sha256": "7a3918ea1451505203c0d64fab6c0a446b27eaa49d95af362dc3938c84840cba"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/worker.json",
+      "size": 463,
+      "sha256": "342e10d2ddc1627df9cc6505c4de43144c258843a5eee7a3954ee1510450cd40"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/worker.stderr.log",
+      "size": 1332,
+      "sha256": "026cb7a892cb75f4dccc67e2a4e1b08a6949992bc3dfe2354d7ac5f629b6e0de"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/cnn_baseline_readback_20261028/worker.stdout.log",
+      "size": 244279,
+      "sha256": "856b57b93f8f6cc7eacc9b0965fb3a226fcd16b9523d24a7d8b21e85b78219c6"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/continue_20261028/cnn_baseline_captured_log_evidence.json",
+      "size": 5899,
+      "sha256": "133e55e96feb7d75f7d302969aead0c3d4d03c009b52fb342b842023dd1621c0"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/continue_20261028/execution.lock",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/continue_20261028/route_worker.json",
+      "size": 513,
+      "sha256": "076a6b4573f90c971ec54ad28531ccbecc13992aad6a7148d7255fef08400566"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/continue_20261028/route_worker.stderr.log",
+      "size": 66,
+      "sha256": "a58ad3a2d75db63b4a3341fa8ad54056450d204a2b200f95841f5fc33a5df40a"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/continue_20261028/route_worker.stdout.log",
+      "size": 201,
+      "sha256": "f74fe0434c4a4f6f7e6e3ea576a997aa2cdad01a34028357c6d8fcbb5993b3ba"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/continue_20261028/route_worker_status.json",
+      "size": 479,
+      "sha256": "5f9f41dc9d2c13930a5a0e2681932ebe1ce460c204dad9b4eaf689db6f9c72d6"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/_control/route_priority_20261027/continue_20261028/windows_launch.json",
+      "size": 258,
+      "sha256": "395062d5a7783e2928fd4cf118f758f1b67d455b31f6561aab00e73b43bbbcd1"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/claim.json",
+      "size": 290,
+      "sha256": "6ef9b22df948cdd189160f20503d1a451c00beb63f5cc4c64fdd598d356b7b0d"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/container.id",
+      "size": 64,
+      "sha256": "dd7d55e3fd81013ef6d62bbf1ef4df242d252d235a12b4ffd54779a889a07a71"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/invocation.json",
+      "size": 1574,
+      "sha256": "1bd38fe11ed2ae6dd6414451c4543fd22e18628e5a8d42ba3f57a45a46deef77"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/openroad.log",
+      "size": 16586,
+      "sha256": "02a95897f331596365db8a4afd1cfec060c5ac1ebbb552886a834af70b2c87c7"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/openroad_completed.txt",
+      "size": 110,
+      "sha256": "2dbe97aa7ab19408cc9b45f6887d662dc47529f9c49e6fec0e380cfd3fe569e1"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/openroad_version.txt",
+      "size": 22,
+      "sha256": "a59f2fc33e0591e0987e4290e0592c0bcca77c92267285ba24e3daf9bf412012"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/recovery_audit.json",
+      "size": 5359,
+      "sha256": "7d0f0e19e4c2b865aceab5aa36ff394d5effd976f9d088966db56a9a2455867c"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/cts.hold_wns.rpt",
+      "size": 25,
+      "sha256": "302d830e3fa01e2959cd5c8f2a062742565d4445e4be4fd2f269124ec982fff2"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/cts.paths.rpt",
+      "size": 27622,
+      "sha256": "de6f552736d5c46a2cc2ccc084e32f8ebb906c6097a57b291caa628efe7c4b03"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/cts.tns.rpt",
+      "size": 21,
+      "sha256": "1e793d056713e5500ed01863a1203b16d850529ae215211d1380156492bab8be"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/cts.wns.rpt",
+      "size": 26,
+      "sha256": "b27f6c8c9797668fa9ab750e0fd4b6a4c1efd54fd6daccf4be6ae5aff3782751"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/cts_placement_check.ok",
+      "size": 39,
+      "sha256": "babefaaacd01bc0842172a2d3224ab4ddcce6044d2d9613c45f149e353a3c0c4"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/detailed_drc.rpt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/detailed_route_wirelength.txt",
+      "size": 5127174,
+      "sha256": "beffe756776c38c21620ced9bcbb45d545e708649edc9c52d78b7da0feb8e9e5"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/final.hold_wns.rpt",
+      "size": 25,
+      "sha256": "c4f435c0302dd1dca8d2772fecc888ab5452414cdd30236afb62d49a1f803c31"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/final.hpwl.tsv",
+      "size": 5771926,
+      "sha256": "636a100dbf51611576adc7210ada584b9b322774b5c37132ca6c292db0b2827b"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/final.paths.rpt",
+      "size": 27925,
+      "sha256": "8f3550414e853b8ff19a7768bd3bc8e00ccac4cd6fa8c49740fc3bd8e4958fd1"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/final.tns.rpt",
+      "size": 19,
+      "sha256": "9a4918943b38bb5a166495f6f681801c24a6f1ffc2fdb43813b018eb1a4db1e7"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/final.wns.rpt",
+      "size": 26,
+      "sha256": "490b3328b9ae090baf64a84a3c9a5992c93b8d5b9bc6acd3be7472e46c44a8d9"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/final_placement_check.ok",
+      "size": 39,
+      "sha256": "babefaaacd01bc0842172a2d3224ab4ddcce6044d2d9613c45f149e353a3c0c4"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/global_route.hold_wns.rpt",
+      "size": 25,
+      "sha256": "096b54d89666bd9bee1f37e68b3dba3990c79dfda8977f781f21212ede22ba0e"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/global_route.paths.rpt",
+      "size": 27524,
+      "sha256": "8b4add4834f404f67f560c7e584f459fd49421a0910965bb4eba708d578ddfe0"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/global_route.tns.rpt",
+      "size": 21,
+      "sha256": "297a4df771f7589f6c6640e3a694c95dc33099efc23421081b79078090276a5e"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/global_route.wns.rpt",
+      "size": 26,
+      "sha256": "49a6bb9b60abd5b46379b36259eba4cfdbe624522967efbb5a94ef8a3bc25f43"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/global_route_wirelength.txt",
+      "size": 4963118,
+      "sha256": "58f4a2c138ab2e018c39fe29834f39f6a1f60ef9a499660cc0d75a15907becc6"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/macro_invariance.tsv",
+      "size": 846,
+      "sha256": "9faa55df4533b3aacd962471270b1bbff4f1cf9d56ee226d1d60f6e151d884f7"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/measures.tsv",
+      "size": 717,
+      "sha256": "c6a6b9904f255baeef598d6876bb7966871cf82ccbe91238d42948f9e53b90f8"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/placement.hold_wns.rpt",
+      "size": 24,
+      "sha256": "04cd5e8db28cfe66d9fd27577dc8ecc410bea9a75cb2fcd3b96c963cc8bb6cbc"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/placement.hpwl.tsv",
+      "size": 5575085,
+      "sha256": "8f391f6b17c12cd1aef9365fc4639a9a5c95c5001d06334c2f6f4a47ce3947fb"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/placement.paths.rpt",
+      "size": 28056,
+      "sha256": "62b1b7e3bdfc80c72b0320d837570d59b7b90c6c9d2407fdbab1a4b9e39e274a"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/placement.tns.rpt",
+      "size": 21,
+      "sha256": "8942be06d84903db4a63a0fb5fe8aad442096d2b93b4eaaf2393512baeac75df"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/placement.wns.rpt",
+      "size": 26,
+      "sha256": "a0260a4e3d3c1ba537e1320c6b6bc1d0d8d65974904aa3c1f417dca6ae724f9a"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/placement_check.ok",
+      "size": 39,
+      "sha256": "babefaaacd01bc0842172a2d3224ab4ddcce6044d2d9613c45f149e353a3c0c4"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/reports/route_coverage.tsv",
+      "size": 5256925,
+      "sha256": "53a746da9dc7f4a73ba598352e2b8f6340fbf18c14750ff2efecc79577c232f8"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/results/cts.odb",
+      "size": 226975938,
+      "sha256": "d4beb6c0ac671495e7597293933de4195e887d9b4a16a2a363861a1f040f2298"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/results/detailed_placement.def",
+      "size": 273099194,
+      "sha256": "d7827d3c298bba0719fb44d22511d59d7169d0ce9a70d177ae983e172b42c5cd"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/results/final.def",
+      "size": 752107895,
+      "sha256": "0e71da17477d6228deebccc4069cf738d54ee16fe013f39f41be1474c4bc5005"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/results/final.odb",
+      "size": 1788959927,
+      "sha256": "1617ffc88e9e760217d6dab83ff738e1f8a7e35a9aaf744577d55b322b39938b"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/results/final.sdc",
+      "size": 33375,
+      "sha256": "830064e3691665a965d2b6b6f6399fa76f4e35020311e6e7a5b88f3551e7c832"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/results/final.spef",
+      "size": 364740708,
+      "sha256": "ba96bae6267ccf29f548c70197ffe81ca1eb71e4f3af27a219bb5a4709718bbf"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/results/global_placement.odb",
+      "size": 224219278,
+      "sha256": "e5c110973f253d78dbde6dcebfb84a85fab4b8cc12f96b398c01b4f073dc2adc"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/results/global_route.odb",
+      "size": 500548763,
+      "sha256": "d3142f325a79c0e67a41da0c9a09bb1122eb7acaf533edbe719943cc7b0056a2"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/results/route.guide",
+      "size": 72214753,
+      "sha256": "2c4f4a2c360ebe9afdf7c920c6051453436625eaef9016fbc5361acdb774c2ac"
+    },
+    {
+      "path": "数据/Public-Macro-Benchmarks/runs/fixed_macro_route_swap40_20261028/cnn/baseline/runtime.tcl",
+      "size": 2829,
+      "sha256": "af57a48d404db7fd3fa8b1e0158c117b9c2bfb66640d5d1134c24f78a8b2d905"
+    }
+  ],
+  "parts": [
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part000",
+      "id": 686944506,
+      "size": 16777216,
+      "sha256": "4938e344ad1700c4eae8007eaef5a27930d8abf110c48ced783db5781ffc5dd5"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part001",
+      "id": 686944545,
+      "size": 16777216,
+      "sha256": "a8e4346fb8203bd75b7305abc774e01db0f2f58c4dee5a8b4f5bbe2f2c1e2122"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part002",
+      "id": 686944602,
+      "size": 16777216,
+      "sha256": "c8ea9ab89b6cf0bc02063cea8779fcfe407ebce12b48bb92b552251e8ec3045b"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part003",
+      "id": 686944657,
+      "size": 16777216,
+      "sha256": "43680b26ae8c0a501291052de9193d14ed2c74b1def8ff1888be06e1c9b72462"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part004",
+      "id": 686944742,
+      "size": 16777216,
+      "sha256": "a68236812301822290b8327c03659a5bfd2a775df57d37b0857197c3b5832ea8"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part005",
+      "id": 686944942,
+      "size": 16777216,
+      "sha256": "660c7ae3c6f2a289f12363b70df2602ed793b4250a3e59e3625189934e46936d"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part006",
+      "id": 686945119,
+      "size": 16777216,
+      "sha256": "56d64550eee5e77e57c297691823d41bd8e4cc7dcb38e34ee59c755c10adf205"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part007",
+      "id": 686945365,
+      "size": 16777216,
+      "sha256": "a223f39ee51ee996866357c8562998a0fca797263b55727edc6c1e26fcac4844"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part008",
+      "id": 686945423,
+      "size": 16777216,
+      "sha256": "4105a9098d599a39635851818e93066f2ba4603be4f8fbe30f740f59440a260c"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part009",
+      "id": 686945658,
+      "size": 16777216,
+      "sha256": "0157768c43ecba9b79252b6a13f98ae0a2857c3a75e3bfaaa4c90f6196291ba3"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part010",
+      "id": 686945881,
+      "size": 16777216,
+      "sha256": "851fe3beb69c908c8d951adf653c9363f3372ff2b84a6ced724af3387e657f48"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part011",
+      "id": 686946059,
+      "size": 16777216,
+      "sha256": "dafd657a9f067fc28775c8617329f3062e5f489c1f5dfd109f334985364a5623"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part012",
+      "id": 686946177,
+      "size": 16777216,
+      "sha256": "82ad1a7bdf3426ec9f8c3e2b997346637a0c304451d416be1ad6057a4cebb530"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part013",
+      "id": 686946315,
+      "size": 16777216,
+      "sha256": "bfbfa8f2c1d8fcb772b6b2368ea76afe068dafa2bf66e3a4dd2006232fb17970"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part014",
+      "id": 686946565,
+      "size": 16777216,
+      "sha256": "0886c1c3941522476194307d06248ce392ddcde7d09d6d5aa271ee19fe3e0270"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part015",
+      "id": 686946719,
+      "size": 16777216,
+      "sha256": "7c89396982ede4926d44373d8211ccacaf574415fccaae09e9380bf2c4e3f739"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part016",
+      "id": 686946881,
+      "size": 16777216,
+      "sha256": "f4a41eeb7caebe8caca440153f9bc5e169e332fa77bc1e3dc463937c513fb2c5"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part017",
+      "id": 686947106,
+      "size": 16777216,
+      "sha256": "e1211f461ecc7ab48126f0a0b41bdadcbc27f735f6a0f59dca564616538da3e1"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part018",
+      "id": 686947135,
+      "size": 16777216,
+      "sha256": "aca679ec7d2974b43e34d2695c701340c2c42625c2581c7ffa3e9b998799f854"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part019",
+      "id": 686947296,
+      "size": 16777216,
+      "sha256": "431952569b20e50a5ae5deb3fb2da5288ec4abe0ebaf4d23aba6dc41c4cf40bb"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part020",
+      "id": 686947299,
+      "size": 16777216,
+      "sha256": "da5093881f9133f77ddc035c5874c18f4e22e088a8620dc695ec7c5fa0c79a58"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part021",
+      "id": 686947512,
+      "size": 16777216,
+      "sha256": "5e14083c59778be7069736ed25b7896fc84b63282a3af7b0b0380ef86aa6724c"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part022",
+      "id": 686947676,
+      "size": 16777216,
+      "sha256": "98ed6048acdd871e4fd9615856cda22e942a72d7eafd09975987e9b2b6696db9"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part023",
+      "id": 686947740,
+      "size": 16777216,
+      "sha256": "a4c3626ff8f975a3f6b39623758cc01a3acecd6e5a83f50e56b3110423f86e0c"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part024",
+      "id": 686947821,
+      "size": 16777216,
+      "sha256": "54c683374a83feff8184a8ee0995276c9df81f1a86ee9b206a8c9694f972460f"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part025",
+      "id": 686947960,
+      "size": 16777216,
+      "sha256": "1a79f6b48d59ed0184942b6d43693645e27979c88ca700615cb9e8d7b560f753"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part026",
+      "id": 686948097,
+      "size": 16777216,
+      "sha256": "455c45d70be279897b0839693210d8eea76492ee333cec7a21dd9e2f6b6b3489"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part027",
+      "id": 686948961,
+      "size": 16777216,
+      "sha256": "0a2a28a385d7c764fae3fd6d168c02c2f503a9dde0b63617f72917da6c00800f"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part028",
+      "id": 686948988,
+      "size": 16777216,
+      "sha256": "bb052721b8828fad09882d2affef346805370265f9a52e41489e6615b84ac81d"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part029",
+      "id": 686949023,
+      "size": 16777216,
+      "sha256": "bc0c3205d3fc79ec2d9d6988512e3f87b25149d16bad6ac04d43a7e8d54cef3a"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part030",
+      "id": 686949224,
+      "size": 16777216,
+      "sha256": "097881be0c1acfd693ec9909c0cd2b8ad9ef0cfc5da2b4ba92d76e26c727ae7e"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part031",
+      "id": 686949480,
+      "size": 16777216,
+      "sha256": "0b9202e48e28f9b27e8e021e1b23a5c21df567ebf474e3d78e3e51dc4702bc9f"
+    },
+    {
+      "name": "cnn__20261029_baseline_openroad.tar.zst.part032",
+      "id": 686949696,
+      "size": 14611444,
+      "sha256": "bbcd92c4b6c146013a8139552ffd3a2fe86696c2db2aa4922770733415e829a1"
+    }
+  ],
+  "per_file_archive_verified": true,
+  "local_archive_readback_verified": true,
+  "remote_per_file_readback_verified": false,
+  "remote_part_digests_verified": true,
+  "remote_archive_members_verified_by_digest_equivalence": true,
+  "verification_method": "Exact compressed stream locally decoded and each member SHA-256 checked; GitHub size and SHA-256 match every compressed part; source files rehashed after upload.",
+  "local_archive_files_created": false
+}

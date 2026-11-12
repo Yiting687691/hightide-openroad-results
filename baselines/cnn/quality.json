@@ -1,0 +1,13 @@
+{
+  "baseline_status": "artifacts_verified_with_execution_gaps_readback_discrepancy_pending",
+  "baseline_original_exit_and_full_log_missing": true,
+  "baseline_grt_overflow": null,
+  "readback_wirelength_delta_um": 0.03,
+  "changed_nets": 1,
+  "total_baseline_nets": 191707,
+  "strict_readback_accepted": false,
+  "physical_protocol": "local fixed-macro paired backend; not a complete upstream ORFS reproduction",
+  "macro_pose_only": true,
+  "signoff": false,
+  "original_spef_warnings_retained": true
+}
