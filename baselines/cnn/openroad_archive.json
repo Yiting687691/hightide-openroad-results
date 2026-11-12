@@ -2,7 +2,7 @@
   "design": "cnn",
   "arm": "baseline",
   "kind": "openroad",
-  "repo": "Yiting687691/open-source-openroad-results",
+  "repo": "Yiting687691/hightide-openroad-results",
   "release_tag": "cnn-quadratic-v21-20261029",
   "baseline_recovery_discrepancy_pending": true,
   "physical_protocol": "local fixed-macro paired backend; not a complete upstream ORFS reproduction",
@@ -437,201 +437,234 @@
   "parts": [
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part000",
-      "id": 686944506,
+      "id": 740333024,
       "size": 16777216,
-      "sha256": "4938e344ad1700c4eae8007eaef5a27930d8abf110c48ced783db5781ffc5dd5"
+      "sha256": "4938e344ad1700c4eae8007eaef5a27930d8abf110c48ced783db5781ffc5dd5",
+      "original_asset_id": 686944506
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part001",
-      "id": 686944545,
+      "id": 740334302,
       "size": 16777216,
-      "sha256": "a8e4346fb8203bd75b7305abc774e01db0f2f58c4dee5a8b4f5bbe2f2c1e2122"
+      "sha256": "a8e4346fb8203bd75b7305abc774e01db0f2f58c4dee5a8b4f5bbe2f2c1e2122",
+      "original_asset_id": 686944545
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part002",
-      "id": 686944602,
+      "id": 740335766,
       "size": 16777216,
-      "sha256": "c8ea9ab89b6cf0bc02063cea8779fcfe407ebce12b48bb92b552251e8ec3045b"
+      "sha256": "c8ea9ab89b6cf0bc02063cea8779fcfe407ebce12b48bb92b552251e8ec3045b",
+      "original_asset_id": 686944602
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part003",
-      "id": 686944657,
+      "id": 740337179,
       "size": 16777216,
-      "sha256": "43680b26ae8c0a501291052de9193d14ed2c74b1def8ff1888be06e1c9b72462"
+      "sha256": "43680b26ae8c0a501291052de9193d14ed2c74b1def8ff1888be06e1c9b72462",
+      "original_asset_id": 686944657
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part004",
-      "id": 686944742,
+      "id": 740338264,
       "size": 16777216,
-      "sha256": "a68236812301822290b8327c03659a5bfd2a775df57d37b0857197c3b5832ea8"
+      "sha256": "a68236812301822290b8327c03659a5bfd2a775df57d37b0857197c3b5832ea8",
+      "original_asset_id": 686944742
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part005",
-      "id": 686944942,
+      "id": 740339520,
       "size": 16777216,
-      "sha256": "660c7ae3c6f2a289f12363b70df2602ed793b4250a3e59e3625189934e46936d"
+      "sha256": "660c7ae3c6f2a289f12363b70df2602ed793b4250a3e59e3625189934e46936d",
+      "original_asset_id": 686944942
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part006",
-      "id": 686945119,
+      "id": 740340799,
       "size": 16777216,
-      "sha256": "56d64550eee5e77e57c297691823d41bd8e4cc7dcb38e34ee59c755c10adf205"
+      "sha256": "56d64550eee5e77e57c297691823d41bd8e4cc7dcb38e34ee59c755c10adf205",
+      "original_asset_id": 686945119
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part007",
-      "id": 686945365,
+      "id": 740342270,
       "size": 16777216,
-      "sha256": "a223f39ee51ee996866357c8562998a0fca797263b55727edc6c1e26fcac4844"
+      "sha256": "a223f39ee51ee996866357c8562998a0fca797263b55727edc6c1e26fcac4844",
+      "original_asset_id": 686945365
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part008",
-      "id": 686945423,
+      "id": 740343359,
       "size": 16777216,
-      "sha256": "4105a9098d599a39635851818e93066f2ba4603be4f8fbe30f740f59440a260c"
+      "sha256": "4105a9098d599a39635851818e93066f2ba4603be4f8fbe30f740f59440a260c",
+      "original_asset_id": 686945423
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part009",
-      "id": 686945658,
+      "id": 740344424,
       "size": 16777216,
-      "sha256": "0157768c43ecba9b79252b6a13f98ae0a2857c3a75e3bfaaa4c90f6196291ba3"
+      "sha256": "0157768c43ecba9b79252b6a13f98ae0a2857c3a75e3bfaaa4c90f6196291ba3",
+      "original_asset_id": 686945658
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part010",
-      "id": 686945881,
+      "id": 740345299,
       "size": 16777216,
-      "sha256": "851fe3beb69c908c8d951adf653c9363f3372ff2b84a6ced724af3387e657f48"
+      "sha256": "851fe3beb69c908c8d951adf653c9363f3372ff2b84a6ced724af3387e657f48",
+      "original_asset_id": 686945881
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part011",
-      "id": 686946059,
+      "id": 740346422,
       "size": 16777216,
-      "sha256": "dafd657a9f067fc28775c8617329f3062e5f489c1f5dfd109f334985364a5623"
+      "sha256": "dafd657a9f067fc28775c8617329f3062e5f489c1f5dfd109f334985364a5623",
+      "original_asset_id": 686946059
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part012",
-      "id": 686946177,
+      "id": 740347703,
       "size": 16777216,
-      "sha256": "82ad1a7bdf3426ec9f8c3e2b997346637a0c304451d416be1ad6057a4cebb530"
+      "sha256": "82ad1a7bdf3426ec9f8c3e2b997346637a0c304451d416be1ad6057a4cebb530",
+      "original_asset_id": 686946177
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part013",
-      "id": 686946315,
+      "id": 740349257,
       "size": 16777216,
-      "sha256": "bfbfa8f2c1d8fcb772b6b2368ea76afe068dafa2bf66e3a4dd2006232fb17970"
+      "sha256": "bfbfa8f2c1d8fcb772b6b2368ea76afe068dafa2bf66e3a4dd2006232fb17970",
+      "original_asset_id": 686946315
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part014",
-      "id": 686946565,
+      "id": 740350688,
       "size": 16777216,
-      "sha256": "0886c1c3941522476194307d06248ce392ddcde7d09d6d5aa271ee19fe3e0270"
+      "sha256": "0886c1c3941522476194307d06248ce392ddcde7d09d6d5aa271ee19fe3e0270",
+      "original_asset_id": 686946565
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part015",
-      "id": 686946719,
+      "id": 740352347,
       "size": 16777216,
-      "sha256": "7c89396982ede4926d44373d8211ccacaf574415fccaae09e9380bf2c4e3f739"
+      "sha256": "7c89396982ede4926d44373d8211ccacaf574415fccaae09e9380bf2c4e3f739",
+      "original_asset_id": 686946719
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part016",
-      "id": 686946881,
+      "id": 740353758,
       "size": 16777216,
-      "sha256": "f4a41eeb7caebe8caca440153f9bc5e169e332fa77bc1e3dc463937c513fb2c5"
+      "sha256": "f4a41eeb7caebe8caca440153f9bc5e169e332fa77bc1e3dc463937c513fb2c5",
+      "original_asset_id": 686946881
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part017",
-      "id": 686947106,
+      "id": 740355130,
       "size": 16777216,
-      "sha256": "e1211f461ecc7ab48126f0a0b41bdadcbc27f735f6a0f59dca564616538da3e1"
+      "sha256": "e1211f461ecc7ab48126f0a0b41bdadcbc27f735f6a0f59dca564616538da3e1",
+      "original_asset_id": 686947106
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part018",
-      "id": 686947135,
+      "id": 740356478,
       "size": 16777216,
-      "sha256": "aca679ec7d2974b43e34d2695c701340c2c42625c2581c7ffa3e9b998799f854"
+      "sha256": "aca679ec7d2974b43e34d2695c701340c2c42625c2581c7ffa3e9b998799f854",
+      "original_asset_id": 686947135
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part019",
-      "id": 686947296,
+      "id": 740357980,
       "size": 16777216,
-      "sha256": "431952569b20e50a5ae5deb3fb2da5288ec4abe0ebaf4d23aba6dc41c4cf40bb"
+      "sha256": "431952569b20e50a5ae5deb3fb2da5288ec4abe0ebaf4d23aba6dc41c4cf40bb",
+      "original_asset_id": 686947296
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part020",
-      "id": 686947299,
+      "id": 740359260,
       "size": 16777216,
-      "sha256": "da5093881f9133f77ddc035c5874c18f4e22e088a8620dc695ec7c5fa0c79a58"
+      "sha256": "da5093881f9133f77ddc035c5874c18f4e22e088a8620dc695ec7c5fa0c79a58",
+      "original_asset_id": 686947299
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part021",
-      "id": 686947512,
+      "id": 740360619,
       "size": 16777216,
-      "sha256": "5e14083c59778be7069736ed25b7896fc84b63282a3af7b0b0380ef86aa6724c"
+      "sha256": "5e14083c59778be7069736ed25b7896fc84b63282a3af7b0b0380ef86aa6724c",
+      "original_asset_id": 686947512
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part022",
-      "id": 686947676,
+      "id": 740361830,
       "size": 16777216,
-      "sha256": "98ed6048acdd871e4fd9615856cda22e942a72d7eafd09975987e9b2b6696db9"
+      "sha256": "98ed6048acdd871e4fd9615856cda22e942a72d7eafd09975987e9b2b6696db9",
+      "original_asset_id": 686947676
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part023",
-      "id": 686947740,
+      "id": 740362974,
       "size": 16777216,
-      "sha256": "a4c3626ff8f975a3f6b39623758cc01a3acecd6e5a83f50e56b3110423f86e0c"
+      "sha256": "a4c3626ff8f975a3f6b39623758cc01a3acecd6e5a83f50e56b3110423f86e0c",
+      "original_asset_id": 686947740
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part024",
-      "id": 686947821,
+      "id": 740364132,
       "size": 16777216,
-      "sha256": "54c683374a83feff8184a8ee0995276c9df81f1a86ee9b206a8c9694f972460f"
+      "sha256": "54c683374a83feff8184a8ee0995276c9df81f1a86ee9b206a8c9694f972460f",
+      "original_asset_id": 686947821
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part025",
-      "id": 686947960,
+      "id": 740365168,
       "size": 16777216,
-      "sha256": "1a79f6b48d59ed0184942b6d43693645e27979c88ca700615cb9e8d7b560f753"
+      "sha256": "1a79f6b48d59ed0184942b6d43693645e27979c88ca700615cb9e8d7b560f753",
+      "original_asset_id": 686947960
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part026",
-      "id": 686948097,
+      "id": 740366312,
       "size": 16777216,
-      "sha256": "455c45d70be279897b0839693210d8eea76492ee333cec7a21dd9e2f6b6b3489"
+      "sha256": "455c45d70be279897b0839693210d8eea76492ee333cec7a21dd9e2f6b6b3489",
+      "original_asset_id": 686948097
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part027",
-      "id": 686948961,
+      "id": 740367599,
       "size": 16777216,
-      "sha256": "0a2a28a385d7c764fae3fd6d168c02c2f503a9dde0b63617f72917da6c00800f"
+      "sha256": "0a2a28a385d7c764fae3fd6d168c02c2f503a9dde0b63617f72917da6c00800f",
+      "original_asset_id": 686948961
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part028",
-      "id": 686948988,
+      "id": 740368678,
       "size": 16777216,
-      "sha256": "bb052721b8828fad09882d2affef346805370265f9a52e41489e6615b84ac81d"
+      "sha256": "bb052721b8828fad09882d2affef346805370265f9a52e41489e6615b84ac81d",
+      "original_asset_id": 686948988
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part029",
-      "id": 686949023,
+      "id": 740370394,
       "size": 16777216,
-      "sha256": "bc0c3205d3fc79ec2d9d6988512e3f87b25149d16bad6ac04d43a7e8d54cef3a"
+      "sha256": "bc0c3205d3fc79ec2d9d6988512e3f87b25149d16bad6ac04d43a7e8d54cef3a",
+      "original_asset_id": 686949023
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part030",
-      "id": 686949224,
+      "id": 740371605,
       "size": 16777216,
-      "sha256": "097881be0c1acfd693ec9909c0cd2b8ad9ef0cfc5da2b4ba92d76e26c727ae7e"
+      "sha256": "097881be0c1acfd693ec9909c0cd2b8ad9ef0cfc5da2b4ba92d76e26c727ae7e",
+      "original_asset_id": 686949224
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part031",
-      "id": 686949480,
+      "id": 740372761,
       "size": 16777216,
-      "sha256": "0b9202e48e28f9b27e8e021e1b23a5c21df567ebf474e3d78e3e51dc4702bc9f"
+      "sha256": "0b9202e48e28f9b27e8e021e1b23a5c21df567ebf474e3d78e3e51dc4702bc9f",
+      "original_asset_id": 686949480
     },
     {
       "name": "cnn__20261029_baseline_openroad.tar.zst.part032",
-      "id": 686949696,
+      "id": 740374063,
       "size": 14611444,
-      "sha256": "bbcd92c4b6c146013a8139552ffd3a2fe86696c2db2aa4922770733415e829a1"
+      "sha256": "bbcd92c4b6c146013a8139552ffd3a2fe86696c2db2aa4922770733415e829a1",
+      "original_asset_id": 686949696
     }
   ],
   "per_file_archive_verified": true,
@@ -640,5 +673,9 @@
   "remote_part_digests_verified": true,
   "remote_archive_members_verified_by_digest_equivalence": true,
   "verification_method": "Exact compressed stream locally decoded and each member SHA-256 checked; GitHub size and SHA-256 match every compressed part; source files rehashed after upload.",
-  "local_archive_files_created": false
+  "local_archive_files_created": false,
+  "original_publication": {
+    "repo": "Yiting687691/open-source-openroad-results",
+    "release_tag": "cnn-quadratic-v21-20261029"
+  }
 }

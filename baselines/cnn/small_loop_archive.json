@@ -6166,57 +6166,69 @@
   ],
   "source_manifest_sha256": "8a94f97aa736ba774fe30da419a7ca0c8c92c3d51026292fa7c92e803b9bdf46",
   "local_member_sha256_verified": true,
-  "repo": "Yiting687691/open-source-openroad-results",
+  "repo": "Yiting687691/hightide-openroad-results",
   "release_tag": "cnn-quadratic-v21-20261029",
   "key": "cnn__baseline_small_loop_only",
   "parts": [
     {
       "name": "cnn__baseline_small_loop_only.tar.zst.part000",
-      "id": 724495925,
+      "id": 740375660,
       "size": 16777216,
-      "sha256": "2053aff197d4e8e74020c9fd6e65bb4c19db93f373e22bd9bc2c60640d8c40dc"
+      "sha256": "2053aff197d4e8e74020c9fd6e65bb4c19db93f373e22bd9bc2c60640d8c40dc",
+      "original_asset_id": 724495925
     },
     {
       "name": "cnn__baseline_small_loop_only.tar.zst.part001",
-      "id": 724496722,
+      "id": 740377110,
       "size": 16777216,
-      "sha256": "4270383bcd6b72a30e4dc2806c49c6fdb883cc4977ee03066206e003443af802"
+      "sha256": "4270383bcd6b72a30e4dc2806c49c6fdb883cc4977ee03066206e003443af802",
+      "original_asset_id": 724496722
     },
     {
       "name": "cnn__baseline_small_loop_only.tar.zst.part002",
-      "id": 724497891,
+      "id": 740378165,
       "size": 16777216,
-      "sha256": "3a3c729b4c58ce9cc227b2b373ec4c85faf8007a372a634925816f60ed8b6c89"
+      "sha256": "3a3c729b4c58ce9cc227b2b373ec4c85faf8007a372a634925816f60ed8b6c89",
+      "original_asset_id": 724497891
     },
     {
       "name": "cnn__baseline_small_loop_only.tar.zst.part003",
-      "id": 724498811,
+      "id": 740379532,
       "size": 16777216,
-      "sha256": "1a87c8d8bd335fab5976ebaeb2e71a40c0893160b4e226696e13434da4773742"
+      "sha256": "1a87c8d8bd335fab5976ebaeb2e71a40c0893160b4e226696e13434da4773742",
+      "original_asset_id": 724498811
     },
     {
       "name": "cnn__baseline_small_loop_only.tar.zst.part004",
-      "id": 724499758,
+      "id": 740384220,
       "size": 16777216,
-      "sha256": "ea5d5258597c0f3e0f921b0527dd3b9c1d05cd087bc56e7588c3a339956cba50"
+      "sha256": "ea5d5258597c0f3e0f921b0527dd3b9c1d05cd087bc56e7588c3a339956cba50",
+      "original_asset_id": 724499758
     },
     {
       "name": "cnn__baseline_small_loop_only.tar.zst.part005",
-      "id": 724500690,
+      "id": 740385526,
       "size": 16777216,
-      "sha256": "c0ccdf5c38ee6fa42a6d7d973e82b868a9a05c014955c4fd2723c9b441c7abff"
+      "sha256": "c0ccdf5c38ee6fa42a6d7d973e82b868a9a05c014955c4fd2723c9b441c7abff",
+      "original_asset_id": 724500690
     },
     {
       "name": "cnn__baseline_small_loop_only.tar.zst.part006",
-      "id": 724501838,
+      "id": 740386958,
       "size": 16777216,
-      "sha256": "0442c5a8736976ad1635297285b6a6deae3608ae44397a65156a1fab7f12536d"
+      "sha256": "0442c5a8736976ad1635297285b6a6deae3608ae44397a65156a1fab7f12536d",
+      "original_asset_id": 724501838
     },
     {
       "name": "cnn__baseline_small_loop_only.tar.zst.part007",
-      "id": 724502593,
+      "id": 740388340,
       "size": 9884642,
-      "sha256": "ae1c7802d70d02eb45c62c73bd3933a5ac4a1fb6f22ad329ae312be65f95e5cb"
+      "sha256": "ae1c7802d70d02eb45c62c73bd3933a5ac4a1fb6f22ad329ae312be65f95e5cb",
+      "original_asset_id": 724502593
     }
-  ]
+  ],
+  "original_publication": {
+    "repo": "Yiting687691/open-source-openroad-results",
+    "release_tag": "cnn-quadratic-v21-20261029"
+  }
 }
