@@ -1,15 +1,25 @@
-# HighTide · 基线结果
+# HighTide · 基线与文献参照
 
-[数据来源](https://github.com/VLSIDA/HighTide) · [配套候选](https://github.com/Yiting687691/hightide-openroad-optimized-results)。单位：线长 µm，时序 ns；— 为待补结果。
+[配套仓库](https://github.com/Yiting687691/hightide-openroad-optimized-results) · [文献参照](https://github.com/Yiting687691/hightide-openroad-results/blob/main/BEST_REPORTED.md)
 
-## 结果
+## 按指标选择文献参照
 
-| 设计 | 小循环 HPWL | 小循环 WNS / TNS | OpenROAD RWL | OpenROAD WNS / TNS | 状态 |
-|---|---:|---:|---:|---:|---|
-| [CNN](baselines/cnn/) | 12,897,036.322 | 未测 | 14,761,406.165 | −28.343180 / −916.073547 | v21 历史基线；回读差异待核实 |
-| Eyeriss | — | — | — | — | 待补当前版本结果 |
-| NyuziProcessor | — | — | — | — | 待补当前版本结果 |
+| 设计 | 线长参照 | WNS 参照 | TNS 参照 |
+|---|---:|---:|---:|
+| CNN | 未核实 | 未核实 | 未核实 |
+| Eyeriss | 未核实 | 未核实 | 未核实 |
+| NyuziProcessor | 未核实 | 未核实 | 未核实 |
 
-仅采用同输入、同后端配置的配对结果；宏位置/朝向可变，标准单元由 OpenROAD 重摆。完整布线后报告 WNS/TNS、线长收益及 DRC；不把预布局改善当作布线收益。
+尚未找到可核实的逐例领先结果，不据此认定 RTLMP 最优。
 
-CNN 保留已发布的完整历史归档；1 条网回读相差 0.03 µm，严格验收未通过，不作为新算法已完成对照。
+## 已有实测基线
+
+线长单位 mm，时序单位 ns；— 为未发布。
+
+| 设计 | 布局来源 | HPWL / mm | RWL / mm | WNS | TNS |
+|---|---:|---:|---:|---:|---:|
+| [CNN](baselines/cnn/) | OpenROAD RTLMP¹ | 12,897.04 | 14,761.41 | −28.3432 | −916.0735 |
+| Eyeriss | 待核验布局来源 | — | — | — | — |
+| NyuziProcessor | 待核验布局来源 | — | — | — | — |
+
+¹ CNN 是本项目 public_baseline.tcl 经 GP→rtl_macro_placer 生成的 v21 历史基线。1 条网回读相差 0.03 µm，严格验收未通过。
